@@ -1,7 +1,60 @@
-body{
-	background-color: gray;
+.homebody {
+	background-image: url("../images/backgroung_image.jpg");
+	background-repeat: no-repeat;
 }
-h1{
-	
+
+.logindiv {
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 38%;
+	border-style: solid;
+	border-color: gray; padding : 5%;
+	background-color: green;
+	padding: 5%;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+.signupclass {
+	border-bottom: thin;
+	border-color: gray;
+	background-color: gray;
+	border-radius: 3px;
+	padding: 5px;
+	text-align: left;
+	color: black;
+}
+
+}
+.lableclass {
+	color: maroon;
+}
+
+.footer {
+	position: fixed;
 	text-decoration: underline;
+	color: maroon;
+	text-align: center;
+	margin-left: 40%;
+	margin-top: 43%;
+	text-align: center;
+}
+
+.sitelogo {
+	position: absolute;
+	background-color: maroon;
+	padding: 5px;
+}
+
+.heading {
+	position: absolute; margin-left : 40%;
+	text-decoration: underline;
+	color: maroon;
+	text-align: center;
+	text-decoration: underline;
+	margin-left: 40%;
 }

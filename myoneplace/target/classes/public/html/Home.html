@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html ng-app="myapp">
+<html ng-app="myApp">
 <head>
 <meta charset="ISO-8859-1">
 <title>One Place</title>
 <script type="text/javascript" src="../js/angular.js"></script>
-<link type="test/scc" rel="stylesheet" href="../css/style.css">
+<script type="text/javascript" src="../js/application-angular.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
-<body>
-	<h1>Welcome to One Place</h1>
+<body class="homebody">
+	<div ng-controller="controller">
+		<div ng-include="'header.html'"></div>
+		<div class="logindiv">
+			<form action="" method="get" ng->
+				<table>
+					<tr>
+						<th class="lableclass"></b>User Name:</b></th>
+						<td><input type="text" required="required"
+							ng-model="userName"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<th class="lableclass"><b>Password:</b></th>
+						<td><input type="password" required="required"
+							ng-model="password"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td><a href="/" class="signupclass">Sign In</a></td>
+						<td><a href="/" class="signupclass">Sign Up</a></td>
+					</tr>
+
+				</table>
+
+			</form>
+
+
+		</div>
+		<div ng-include="'footer.html'"></div>
+	</div>
 </body>
 </html>
