@@ -6,9 +6,10 @@
 <script type="text/javascript" src="../js/angular.js"></script>
 <script type="text/javascript" src="../js/application-angular.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
+<!-- Author Anudeep Kumar Donthu -->
 </head>
 <body class="homebody">
-	<div  ng-controller="signupcontroller">
+	<div ng-controller="signupcontroller">
 		<div ng-include="'header.html'"></div>
 		<div class="logindiv">
 			<form action="" method="get" ng-submit="loginCheck()">
@@ -16,33 +17,48 @@
 					<tr>
 						<th class="lableclass"></b>User Name:</b></th>
 						<td><input type="text" required="required"
-							ng-model="userName"></td>
+							ng-model="userName" placeholder="UserName"></td>
 					</tr>
 					<tr></tr>
-					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
 					<tr>
 						<th class="lableclass"><b>Password:</b></th>
 						<td><input type="password" required="required"
-							ng-model="password"></td>
+							ng-model="password" placeholder="Password"></td>
 					</tr>
 					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
+					<tr>
+						<th class="lableclass"><b>Eamil Id:</b></th>
+						<td><input type="email" required="required" ng-model="email"
+							placeholder="Email"></td>
+					</tr>
 					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
 					<tr>
 						<th class="lableclass"><b>First Name: </b></th>
 						<td><input type="text" required="required"
-							ng-model="firstName"></td>
+							ng-model="firstName" placeholder="First Name"></td>
 					</tr>
 					<tr></tr>
-					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
 					<tr>
 						<th class="lableclass"><b>Last Name:</b></th>
 						<td><input type="text" required="required"
-							ng-model="lastName"></td>
+							ng-model="lastName" placeholder="Last Name"></td>
 					</tr>
 					<tr></tr>
-					<tr></tr>
-					<tr></tr>
-					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
 					<tr>
 						<td></td>
 						<td><input type="submit" value="Sign Up" class="signupclass" /></td>

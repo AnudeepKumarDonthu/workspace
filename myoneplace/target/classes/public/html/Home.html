@@ -7,6 +7,7 @@
 <script type="text/javascript" src="../js/application-angular.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
+<!-- Author Anudeep Kumar Donthu -->
 <body class="homebody">
 	<div ng-controller="controller">
 		<div ng-include="'header.html'"></div>
@@ -16,20 +17,25 @@
 					<tr>
 						<th class="lableclass"></b>User Name:</b></th>
 						<td><input type="text" required="required"
-							ng-model="userName"></td>
+							ng-model="userName" placeholder="UserName"></td>
 					</tr>
 					<tr></tr>
-					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
 					<tr>
 						<th class="lableclass"><b>Password:</b></th>
 						<td><input type="password" required="required"
-							ng-model="password"></td>
+							ng-model="password" placeholder="Password"></td>
 					</tr>
 					<tr></tr>
-					<tr></tr>
+					<tr>
+						<td>{{error}}</td>
+					</tr>
 					<tr>
 						<td><input type="submit" value="Sign In" class="signupclass" /></td>
-						<td><a href="../html/Signup.html" class="signupclass">Sign Up</a></td>
+						<td><a href="../html/Signup.html" class="signupclass">Sign
+								Up</a></td>
 					</tr>
 
 				</table>
