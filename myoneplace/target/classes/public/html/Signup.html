@@ -2,13 +2,13 @@
 <html ng-app="myApp">
 <head>
 <meta charset="ISO-8859-1">
-<title>One Place</title>
+<title>Sign Up</title>
 <script type="text/javascript" src="../js/angular.js"></script>
 <script type="text/javascript" src="../js/application-angular.js"></script>
 <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body class="homebody">
-	<div ng-controller="controller">
+	<div  ng-controller="signupcontroller">
 		<div ng-include="'header.html'"></div>
 		<div class="logindiv">
 			<form action="" method="get" ng-submit="loginCheck()">
@@ -28,15 +28,36 @@
 					<tr></tr>
 					<tr></tr>
 					<tr>
-						<td><input type="submit" value="Sign In" class="signupclass" /></td>
-						<td><a href="../html/Signup.html" class="signupclass">Sign Up</a></td>
+						<th class="lableclass"><b>First Name: </b></th>
+						<td><input type="text" required="required"
+							ng-model="firstName"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<th class="lableclass"><b>Last Name:</b></th>
+						<td><input type="text" required="required"
+							ng-model="lastName"></td>
+					</tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Sign Up" class="signupclass" /></td>
 					</tr>
 
 				</table>
 
 			</form>
 		</div>
+
+
 		<div ng-include="'footer.html'"></div>
 	</div>
+
+
+
 </body>
 </html>

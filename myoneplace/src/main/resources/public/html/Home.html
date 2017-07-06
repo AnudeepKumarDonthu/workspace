@@ -11,7 +11,7 @@
 	<div ng-controller="controller">
 		<div ng-include="'header.html'"></div>
 		<div class="logindiv">
-			<form action="" method="get" ng->
+			<form action="" method="get" ng-submit="loginCheck()">
 				<table>
 					<tr>
 						<th class="lableclass"></b>User Name:</b></th>
@@ -28,15 +28,13 @@
 					<tr></tr>
 					<tr></tr>
 					<tr>
-						<td><a href="/" class="signupclass">Sign In</a></td>
-						<td><a href="/" class="signupclass">Sign Up</a></td>
+						<td><input type="submit" value="Sign In" class="signupclass" /></td>
+						<td><a href="../html/Signup.html" class="signupclass">Sign Up</a></td>
 					</tr>
 
 				</table>
 
 			</form>
-
-
 		</div>
 		<div ng-include="'footer.html'"></div>
 	</div>

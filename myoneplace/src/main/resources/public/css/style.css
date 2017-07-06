@@ -29,6 +29,10 @@ a {
 	color: black;
 }
 
+.signupclass:hover {
+	cursor: pointer;
+}
+
 }
 .lableclass {
 	color: maroon;
