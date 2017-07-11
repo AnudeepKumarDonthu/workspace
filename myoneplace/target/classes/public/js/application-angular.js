@@ -1,7 +1,6 @@
 // Author Anudeep Kumar Donthu 
 (function() {
-	var app = angular.module('myApp', []);
-	var control = function($scope) {
+	var control = function($scope, $log) {
 		var image = {
 			src : "../images/oneplace_logo.jpg",
 			text : "One Place"
@@ -19,7 +18,8 @@
 		};
 
 		$scope.image = image;
+		$log.info("Image Loaded at path :" + $scope.image.src);
 	};
-	app.controller('controller', [ "$scope", control ]);
-	app.controller('signupcontroller', [ "$scope", control ]);
+	app.controller('controller', control);
+	app.controller('signupcontroller', [ "$scope", "$log", control ]);
 }());
