@@ -5119,3 +5119,14 @@ java.lang.NullPointerException: null
 2017-07-12 22:59:04,043 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-07-12 22:59:04,045 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-12 22:59:04,047 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AnudeepKumar\Desktop\studies\workspace\myoneplace\src\test\resources
+2017-07-14 19:30:58,278 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-14 19:31:21,014 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-14 19:31:21,089 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-14 19:31:21,149 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 361 resources
+2017-07-14 19:31:21,834 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-14 19:31:21,834 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AnudeepKumar\Downloads\Cerebro-master\src\test\resources
+2017-07-14 19:31:25,344 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-14 19:31:25,345 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-14 19:31:25,347 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2017-07-14 19:31:25,353 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-14 19:31:25,354 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AnudeepKumar\Desktop\studies\workspace\myoneplace\src\test\resources
