@@ -5264,3 +5264,13 @@ java.lang.NullPointerException: null
 2017-07-26 07:57:45,297 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
 2017-07-26 07:57:45,303 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-07-26 07:57:45,303 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AnudeepKumar\Desktop\studies\workspace\myoneplace\src\test\resources
+2017-07-26 08:02:03,960 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-26 08:02:03,964 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-26 08:02:03,969 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2017-07-26 08:02:03,976 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-26 08:02:03,976 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AnudeepKumar\Desktop\studies\workspace\myoneplace\src\test\resources
+2017-07-26 08:02:24,817 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-26 08:02:24,822 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-26 08:02:24,830 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 15 resources
+2017-07-26 08:02:24,845 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-26 08:02:24,845 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AnudeepKumar\Desktop\studies\workspace\myoneplace\src\test\resources
